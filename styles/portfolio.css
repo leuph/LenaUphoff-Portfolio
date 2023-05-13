@@ -6,30 +6,44 @@ font-family: 'Poppins', sans-serif; */
 }
 
 .hero {
-  background-color: #fbfcfe;
+  background-color: #f6f9fe;
   text-align: center;
   color: #021c3a;
   padding: 160px 20px;
 }
 
-.hero h2 {
+.hero h1 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
   font-size: 85px;
-  line-height: 110px;
+  line-height: 100px;
 }
 
-.hero h3 {
+.hero h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 200;
   font-size: 28px;
   line-height: 40px;
 }
 
-h2 {
+h1 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
-  font-size: 28px;
+  font-size: 85px;
+  line-height: 100px;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 22px;
   line-height: 40px;
 }
 
@@ -37,7 +51,7 @@ p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 28px;
 }
 
 .btn-branding {
@@ -72,15 +86,21 @@ p {
 }
 
 @media (max-width: 1000px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 28px;
+  }
   .hero {
     padding: 80px 20px;
   }
 
-  .hero h2 {
+  .hero h1 {
     font-size: 50px;
     line-height: 1.1;
   }
-  .hero h3 {
+  .hero h2 {
     font-family: "Poppins", sans-serif;
     font-weight: 200;
     font-size: 22px;
