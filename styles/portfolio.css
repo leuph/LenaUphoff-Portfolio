@@ -1,16 +1,36 @@
 /*font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif; */
 
+:root {
+  --branding-color: #cddef8;
+}
+
 h2 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
-  font-size: 90px;
-  color: #021c3a;
+  font-size: 85px;
 }
 
 h3 {
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 40px;
+  font-weight: 200;
+  font-size: 28px;
+}
+
+.hero {
+  background-color: #fbfcfe;
+  text-align: center;
   color: #021c3a;
+  padding: 160px 20px;
+}
+
+.btn-branding {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  background: var(--branding-color);
+  border-radius: 2px;
+  color: #021c3a;
+  font-size: 16px;
+  line-height: 28px;
+  padding: 15px 30px;
 }
